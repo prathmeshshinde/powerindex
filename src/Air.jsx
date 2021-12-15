@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { db } from "../firebase_config.js";
+import { db } from "./firebase_config.js";
 
 function Air() {
   const [countries, setCountries] = useState([]);
